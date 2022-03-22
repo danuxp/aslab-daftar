@@ -1,0 +1,134 @@
+
+
+/*--------- Desktop ---------*/
+@media screen and (min-width: 1024px) {
+	.navbar-brand span {
+		font-size: 14px;
+	}
+	.navbar-nav a {
+		font-size: 14px;
+	}
+
+	.background h1 {
+		font-size: 24px;
+	}
+
+	.circle img {
+		width: 35%;
+	}
+
+	.form2 {
+		background-color: #737DFE;
+	}
+
+	
+}
+
+/*--------- Tablet ---------*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.background h1 {
+		font-size: 20px;
+	}
+
+	.about h2 {
+		font-size: 22px;
+	}
+
+	.divisi h4 {
+		font-size: 18px;
+	}
+
+	.colom-divisi h3 {
+		font-size: 14px;
+	}
+
+	.colom-divisi img {
+		width: 38%;
+	}
+
+	.content h4 {
+		font-size: 18px;
+	}
+
+	.circle img {
+		width: 40%;
+	}
+
+	.pendaftaran h2 {
+		font-size: 20px;
+	}
+
+	.form2 {
+		background-color: #737DFE;
+	}
+}
+
+
+/*--------- Mobile ---------*/
+@media screen and (max-width: 767px) {
+	.background h1 {
+		font-size: 20px;
+	}
+
+	.text-about {
+		margin-top: 30px;
+	}
+
+	.about h2 {
+		font-size: 22px;
+	}
+
+	.divisi h4 {
+		font-size: 16px;
+		text-align: justify;
+		margin-bottom: 20px;
+	}
+
+	.kolom {
+		margin-top: 20px;
+	}
+
+	.content h4 {
+		font-size: 16px;
+		margin-bottom: 16px;
+	}
+
+	.circle {
+		margin-bottom: 30px;
+	}
+
+	.service h4 {
+		font-size: 16px;
+
+	}
+
+	.carousel .chevron {
+		font-size: 15px;
+
+	}
+
+	.carousel h1 {
+		font-size: 30px;
+	}
+
+	.pendaftaran h4 {
+		font-size: 22px;
+	}
+	
+	.gallery h1 {
+		font-size: 24px;
+	}
+
+	.formData {
+		background-color: #737DFE;
+
+	}
+
+	.img-form {
+		width: 80%;
+		display: block;
+		margin: auto;
+		padding: 20px;
+	}
+
+}

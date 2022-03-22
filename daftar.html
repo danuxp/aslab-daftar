@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<title>Document</title>
+
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="vendor/font-awesome/css/all.min.css" />
+
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+
+    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet">
+    
+
+   	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+	<div class="container mt-5 mb-5 text-white">
+		<div class="formDaftar ">
+			<div class="row">
+				<div class="col-md-5  d-flex align-items-center">
+					<img src="img/personal.svg" alt="img form" class="img-form">
+				</div>	
+
+				<div class="col-md-7 col-sm-6 form2">
+					<div class="formData p-3">
+						<h3 class="text-center pt-3 pb-3"> Form Pendaftaran Aslab Informatika</h3>
+						
+						<form action="">
+							
+							<div class="form-group ">
+							    <label for="Nama Lengkap"> Nama Lengkap </label>
+							    <input type="email" class="form-control" placeholder="Nama Lengkap">
+							</div>
+
+							<div class="form-group">
+							    <!-- <label for="Jenis Kelamin">Jenis Kelamin</label> -->
+							    <select class="form-control ">
+							    	<option disabled="disabled" selected="selected">Jenis Kelamin</option>
+							      <option>Laki-Laki</option>
+							      <option>Perempuan</option>
+							    </select>
+							</div>
+
+
+							<div class="form-row">
+							    <div class="form-group col-md-6">
+								    <label for="tempat"> Tempat </label>
+								    <input type="text" class="form-control" placeholder="Tempat">
+							    </div>
+
+							    <div class="form-group col-md-6">
+							      <label for="tanggal">Tanggal lahir</label>
+							      <input type="text" class="form-control js-datepicker" placeholder="Tanggal">
+							    </div>
+							</div>
+
+							<div class="form-row">
+							    <div class="form-group col-md-6">
+								    <label for="asal"> Asal Sekolah </label>
+								    <input type="text" class="form-control" placeholder="Asal Sekolah">
+							    </div>
+
+							    <div class="form-group col-md-6">
+							      <label for="tahun"> Tahun Lulus</label>
+							      <input type="text" class="form-control" placeholder="Tahun">
+							    </div>
+							</div>
+
+							<div class="form-group">
+							    <!-- <label for="Kelas">Kelas</label> -->
+							    <select class="form-control ">
+							    	<option disabled="disabled" selected="selected">Kelas</option>
+							      <option>Pagi</option>
+							      <option>Malam</option>
+							    </select>
+							</div>
+
+							<div class="form-group">
+							    <label for="exampleFormControlFile1">Pilih gambar dengan format jpg, jpeg, png</label>
+							    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+							</div>
+							
+							<div class="form-group justify-content-end d-flex mt-4">
+								<button type="submit" class="btn btn-daftar mr-1"> Daftar</button>
+								
+								<a href="" class="btn btn-kembali"> Batal </a>
+							</div>
+						</form>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="vendor/bootstrap/js/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/font-awesome/js/all.min.js"></script>
+
+    <script src="vendor/datepicker/moment.min.js"></script>
+    <script src="vendor/datepicker/daterangepicker.js"></script>
+
+    <script src="js/global.js"></script>
+
+
+
+</body>
+</html>
